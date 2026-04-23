@@ -1,0 +1,39 @@
+{
+	"geode": "5.6.1",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "cmds.custom-tips",
+	"name": "Custom Tips",
+	"version": "v1.0.0",
+	"developer": "CMDs",
+	"description": "Custom tips on Loading Screen",
+	"early-load": true,
+	"links": {
+		"source": "https://github.com/oki333ed/CustomTips"
+	},
+	"settings": {
+		"enable": {
+			"name": "Enabled",
+			"type": "bool",
+			"description": "Enable custom tips on Loading Screen",
+			"default": true
+		},
+		"tips": {
+			"name": "Tips",
+			"type": "string",
+			"description": "Add your custom tips for Loading Screen here\n\nUse /n for new line\nSeparate tips with |",
+			"default": "Back on Track it's/n Actually Top 1|Soggy Tips|Loading Nothing|Custom Tip"
+		},
+		"font": {
+			"name": "Font",
+			"type": "string",
+			"description": "Fonts for custom tips",
+			"one-of": ["Gold Font", "Big Font"],
+			"default": "Gold Font"
+		}
+	}
+}
